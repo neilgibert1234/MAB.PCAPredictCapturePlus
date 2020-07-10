@@ -103,7 +103,9 @@ namespace MAB.PCAPredictCapturePlus
                 POBoxNumber = r.POBoxNumber,
                 Label = r.Label,
                 Type = r.Type,
-                DataLevel = r.DataLevel
+                DataLevel = r.DataLevel,
+                Field1 = r.Field1,
+                Field2 = r.Field2
             });
         }
     }

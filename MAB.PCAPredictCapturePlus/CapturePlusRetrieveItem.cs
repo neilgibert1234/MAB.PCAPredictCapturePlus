@@ -5,7 +5,7 @@
     /// </summary>
     public class CapturePlusRetrieveItem
     {
-        #pragma warning disable 1591
+#pragma warning disable 1591
 
         public string Id { get; set; }
         public string DomesticId { get; set; }
@@ -44,7 +44,9 @@
         public string Label { get; set; }
         public string Type { get; set; }
         public string DataLevel { get; set; }
+        public string Field1 { get; set; }
+        public string Field2 { get; set; }
 
-        #pragma warning restore 1591
+#pragma warning restore 1591
     }
 }
