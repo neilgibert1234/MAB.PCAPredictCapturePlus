@@ -40,6 +40,8 @@
         public string Label { get; set; }
         public string Type { get; set; }
         public string DataLevel { get; set; }
+        public string Field1 { get; set; }
+        public string Field2 { get; set; }
 
         // For error results
         public int? Error { get; set; }

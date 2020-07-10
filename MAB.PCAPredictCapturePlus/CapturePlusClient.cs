@@ -118,7 +118,11 @@ namespace MAB.PCAPredictCapturePlus
             var req = new RestRequest(url, Method.GET);
             req.AddParameter("Key", _key);
             req.AddParameter("Id", id);
-        
+
+            //Lat & Long
+            req.AddParameter("field1format", "{Latitude}");
+            req.AddParameter("field2format", "{Longitude}");
+
             var resp = _client.Execute<CapturePlusRetrieveResultList>(req);
             var result = resp.Data.Items;
 
